@@ -1,25 +1,25 @@
-beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work
+beautifulsoup4=4.9.3=pyhb0f4dca_0
 certifi==2020.12.5
 click==7.1.2
 Flask==1.1.2
-Flask-SQLAlchemy @ file:///home/conda/feedstock_root/build_artifacts/flask-sqlalchemy_1594747318500/work
+flask-sqlalchemy=2.4.4=pyh9f0ad1d_0
 gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.2
-joblib @ file:///tmp/build/80754af9/joblib_1607970656719/work
-lightgbm @ file:///opt/concourse/worker/volumes/live/e24fd3f8-2d6a-4250-718c-3e24a0475c10/volume/lightgbm_1607535974816/work
-MarkupSafe @ file:///opt/concourse/worker/volumes/live/cb778296-98db-45ad-411e-6f726e102dc3/volume/markupsafe_1594371638608/work
+joblib=1.0.0=pyhd3eb1b0_0
+lightgbm=3.1.1=py38h23ab428_0
+markupsafe=1.1.1=py38h1de35cc_1
 mkl-service==2.3.0
-nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
+nltk=3.5=py_0
 numpy==1.11.3
 olefile==0.46
-Pillow @ file:///opt/concourse/worker/volumes/live/705be880-f90c-4fb3-489d-9ee685c52cbe/volume/pillow_1609786792428/work
-regex @ file:///opt/concourse/worker/volumes/live/c84a6349-3315-46e4-634b-b5582dea058b/volume/regex_1606691109605/work
+pillow=8.1.0=py38h5270095_0
+regex=2020.11.13=py38h9ed2024_0
 scikit-learn==0.22.1
 scipy==1.3.1
-six @ file:///opt/concourse/worker/volumes/live/5b31cb27-1e37-4ca5-6e9f-86246eb206d2/volume/six_1605205320872/work
-soupsieve @ file:///tmp/build/80754af9/soupsieve_1607965878077/work
-SQLAlchemy @ file:///opt/concourse/worker/volumes/live/60740715-d446-4164-5b0a-2e0bf83d4185/volume/sqlalchemy_1608243739201/work
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
-tqdm @ file:///tmp/build/80754af9/tqdm_1609788246169/work
+six=1.15.0=py38hecd8cb5_0
+soupsieve=2.1=pyhd3eb1b0_0
+sqlalchemy=1.3.21=py38h9ed2024_0
+threadpoolctl=2.1.0=pyh5ca1d4c_0
+tqdm=4.55.1=pyhd3eb1b0_0
 Werkzeug==1.0.1
