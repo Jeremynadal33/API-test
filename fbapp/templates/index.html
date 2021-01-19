@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <!-- Header -->
+    <header>
+      <div class="container" id="maincontent" tabindex="-1">
+        <div class="row" >
+          <p> <b>Please insert a Stackoverflow-type question to try out my tag suggester</b></p>
+        </div>
+        <div class="row">
+          <!-- <div class="intro-text">
+            <h1 class="name">Prêt-e à savoir qui tu es vraiment ?</h1>
+            <hr class="star-light">
+          </div> -->
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <form action="">
+              <label for="qtitle">Title :</label><br>
+              <textarea name="qtitle" id="qtitle" maxlength="200" rows="3" cols="60" style="color:#000000;font:24px/30px ;">{{qtitle}}</textarea><br><br>
+              <label for="qcontent">Question content : </label><br>
+              <textarea name="qcontent" id="qcontent" rows="12" cols="60" style="color:#000000;font:24px/30px ;">{{qcontent}}</textarea><br><br>
+              <input class="submit_btn" style=" background-color:#2C3F51;" type="submit" value="Submit">
+              <!-- <input class="submit_btn" style=" background-color:#2C3F51;" type="submit" formaction="{{random_url}}" value="Random"> -->
+            </form>
+            <br><a href={{random_url}}>
+               <button style=" background-color:#2C3F51; color:#FFFFFF">Random example</button>
+            </a>
+            <br><br><br>
+
+            <p {{ hide_result }}>{{ results }}</p>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+
+
+{% endblock %}
